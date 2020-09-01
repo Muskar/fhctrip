@@ -10,5 +10,8 @@ public class Osman {
         System.out.println("Ücüncü Osman");
         System.out.println("Son");
         System.out.println("Merhaba");
+
+        System.out.println("Osman 4.deneme");
+        System.out.println("Osman branch");
     }
 }
