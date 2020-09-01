@@ -8,5 +8,9 @@ public class Hsaruhan {
         System.out.println("Herkes Merhabalar");
 
         System.out.println("deneme bir iki üc");
+
+        System.out.println("yeni deneme yapıyoruz");
+
+
     }
 }
