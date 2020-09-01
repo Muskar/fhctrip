@@ -11,6 +11,7 @@ public class Hsaruhan {
 
         System.out.println("yeni deneme yapıyoruz");
 
+        System.out.println("Hidr abiye selamlar");
 
     }
 }
