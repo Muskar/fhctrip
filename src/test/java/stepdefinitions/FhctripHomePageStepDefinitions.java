@@ -4,7 +4,8 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
 import pages.FhctripHomePagePage;
-import utilities.ConfigReader;
+import utilities.ConfigurationReader;
+import utilities.ConfigurationReader;
 import utilities.Driver;
 
 import java.util.concurrent.TimeUnit;
@@ -15,7 +16,7 @@ public class FhctripHomePageStepDefinitions {
 
     @Given("user on the homepage")
     public void user_on_the_homepage() {
-        Driver.getDriver().get(ConfigReader.getProperty("fhctrip_homepage_url"));
+        Driver.getDriver().get(ConfigurationReader.getProperty("fhctrip_homepage_url"));
     }
 
     @Then("verify Welcome to fhc trip text is visible")
@@ -32,27 +33,27 @@ Assert.assertFalse(fhctripHomePagePage.homepageText.isDisplayed());
 
     @Given("user click on Name Surname box")
     public void user_click_on_Name_Surname_box() {
-    fhctripHomePagePage.nameBox.sendKeys(ConfigReader.getProperty("name_surname"));
+    fhctripHomePagePage.nameBox.sendKeys(ConfigurationReader.getProperty("name_surname"));
     }
 
     @Given("user click on Email address box")
     public void user_click_on_Email_address_box() {
-fhctripHomePagePage.emailBox.sendKeys(ConfigReader.getProperty("email"));
+fhctripHomePagePage.emailBox.sendKeys(ConfigurationReader.getProperty("email"));
     }
 
     @Given("user click on phone number box")
     public void user_click_on_phone_number_box() {
-fhctripHomePagePage.phoneBox.sendKeys(ConfigReader.getProperty("phone"));
+fhctripHomePagePage.phoneBox.sendKeys(ConfigurationReader.getProperty("phone"));
     }
 
     @Given("user click on subject box")
     public void user_click_on_subject_box() {
-fhctripHomePagePage.subjectBox.sendKeys(ConfigReader.getProperty("subject"));
+fhctripHomePagePage.subjectBox.sendKeys(ConfigurationReader.getProperty("subject"));
     }
 
     @Given("user click on message box")
     public void user_click_on_message_box() {
-        fhctripHomePagePage.messageBox.sendKeys(ConfigReader.getProperty("message"));
+        fhctripHomePagePage.messageBox.sendKeys(ConfigurationReader.getProperty("message"));
     }
 
         @Given("user click on send message button")
@@ -71,17 +72,17 @@ fhctripHomePagePage.subjectBox.sendKeys(ConfigReader.getProperty("subject"));
 
     @Given("user on the homepage and contact page")
     public void user_on_the_homepage_and_contact_page() {
-       Driver.getDriver().get(ConfigReader.getProperty("fhctrip_homepage_contact_url"));
+       Driver.getDriver().get(ConfigurationReader.getProperty("fhctrip_homepage_contact_url"));
 
     }
 
     @Given("all necessary boxes are filled")
     public void all_necessary_boxes_are_filled() {
-        fhctripHomePagePage.nameBox.sendKeys(ConfigReader.getProperty("name_surname"));
-        fhctripHomePagePage.emailBox.sendKeys(ConfigReader.getProperty("email"));
-        fhctripHomePagePage.phoneBox.sendKeys(ConfigReader.getProperty("phone"));
-        fhctripHomePagePage.subjectBox.sendKeys(ConfigReader.getProperty("subject"));
-        fhctripHomePagePage.messageBox.sendKeys(ConfigReader.getProperty("message"));
+        fhctripHomePagePage.nameBox.sendKeys(ConfigurationReader.getProperty("name_surname"));
+        fhctripHomePagePage.emailBox.sendKeys(ConfigurationReader.getProperty("email"));
+        fhctripHomePagePage.phoneBox.sendKeys(ConfigurationReader.getProperty("phone"));
+        fhctripHomePagePage.subjectBox.sendKeys(ConfigurationReader.getProperty("subject"));
+        fhctripHomePagePage.messageBox.sendKeys(ConfigurationReader.getProperty("message"));
 
     }
 
