@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="26.138">
+<testcase classname="Hotel_Olusturma01" name="AC-01: Yönetici olarak tüm kutulara gecerli veri girerek bir oteli kaydetmeliyim" time="25.465">
+<system-out><![CDATA[Given Log in sayfasina gidin................................................passed
+When UserName metin kutusunu tıklayın ve yazın..............................passed
+And Password metin kutusunu tıklayın ve yazın...............................passed
+And LOG IN düğmesine tıklayın...............................................passed
+And Hotel Management butonuna tiklayin......................................passed
+And Hotel List butonuna tiklayin............................................passed
+And Add Hotel butonuna tiklayin.............................................passed
+And Code metin kutusunu tıklayın ve geçerli kodu yazın......................passed
+And Name metin kutusunu tıklayın ve geçerli bir ad yazın....................passed
+And Address metin kutusuna tiklayin ve adres yazin..........................passed
+And Phone metin kutusuna tiklayin ve gecerli telefon numarasi girin.........passed
+And Email metin kutusuna tiklayin ve gecerli Email girin....................passed
+And IDGroup metin kutusunu tıklayın ve grup seçin...........................passed
+And Save butonuna tiklayin..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

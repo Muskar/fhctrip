@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources/features",
         glue = "stepdefinitions",
-        tags = "@rezlist",
+        tags = "@hotelolusturma1",
         dryRun = false
 )
 public class Runner {
