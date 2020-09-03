@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources/features",
         glue = "stepdefinitions",
-        tags = "@rezlist",
+        tags = "@homepage01 or @homepage02 or @homepage03",
         dryRun = false
 )
 public class Runner {
